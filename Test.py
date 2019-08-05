@@ -20,7 +20,7 @@ def DNA_one_hot(seq):
             one_hot=one_hot + '01000'
         elif seq[i] == 'G' or seq[i] == 'g':
             one_hot=one_hot + '00100'
-        elif seq[i] == 'T' or seq[i] == 't':
+        elif seq[i] == 'T' or seq[i] == 't' or seq[i] == 'U' or seq[i] == 'u':
             one_hot=one_hot + '00010'
         elif seq[i] == 'N' or seq[i] == 'n':
             one_hot=one_hot + '00001'
